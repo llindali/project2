@@ -43,7 +43,7 @@ See [full executed output](visible_output.json). Arithmetic historical estimates
 6. [Video recording outlines](docs/video-outlines.md) and [submission manifest](docs/submission-manifest.md).
 
 ## What remains before submission
-- Partner-confirmed clean cold check, supplied by Linda, is recorded in the validation file. The partner's name, elapsed time and a specific control-change observation remain unreported for Lab 20.
+- Partner-confirmed clean cold check, supplied by Linda, is recorded in the validation file. Elapsed time (6 minutes 15 seconds) and specific control-change observations are recorded. Auditor is labeled “Peer Auditor (Lab 20 Cold-Check Session).”
 - Three recorded YouTube videos with corrected transcripts; replace pending manifest entries with real URLs/durations/timestamps. Draft outlines are not transcripts.
 - Confirm Brightspace's enforced due date; attach the same two required Markdown documents and complete manifest. Project 2 has no Edition A or B.
 
