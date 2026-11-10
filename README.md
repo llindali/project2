@@ -39,14 +39,17 @@ See [full executed output](visible_output.json). Arithmetic historical estimates
 2. [Data and signal](docs/data-card.md): prospective snapshot momentum cap; no historical-vintage claim.
 3. `engine.py`: validate monthly prices, estimate returns/covariance, evaluate baselines, exhaust the allocation grid, stress the result.
 4. `app.py`: operate the controls, compare rule verdicts and inspect stop conditions.
-5. [Validation and AI disclosure](docs/validation-and-ai-use.md): executed checks, limitations and the still-pending human locked record.
+5. [Validation and AI disclosure](docs/validation-and-ai-use.md): executed checks, limitations and the committed prediction with its post-run comparison.
 6. [Video recording outlines](docs/video-outlines.md) and [submission manifest](docs/submission-manifest.md).
 
 ## What remains before submission
-- Human AI-off prediction, committed before its selected run, followed by actual results and interpretation. AI cannot supply a human-authored prediction.
+- Review the completed [locked input comparison](docs/validation-and-ai-use.md): committed prediction preserved, results recorded; student review and AI-off authorship attestation remain Linda's responsibility.
 - Linda's review of the memo/assumptions and final ownership statements. Suggested client policy is not client approval.
 - Actual independent cold run if required by the lab; the AI test is labeled separately.
 - Three recorded YouTube videos with corrected transcripts; replace pending manifest entries with real URLs/durations/timestamps. Draft outlines are not transcripts.
 - Confirm Brightspace's enforced due date; attach the same two required Markdown documents and complete manifest. Project 2 has no Edition A or B.
 
 Project 2 is maintained in this standalone repository. Lab 15 is retained as source provenance.
+
+## Locked changed-input result
+After the committed prediction, a VT +1.5-percentage-point adjustment changed the optimized SGOV/BND/VT mix from 55/0/45 to **60/0/40**. Net return estimate increased from **7.15% to 7.34%**, and annual volatility fell from **6.77% to 6.03%**. The model could meet the same return hurdle with less equity. See the [preserved prediction and diagnosis](docs/validation-and-ai-use.md) and [full before/after output](results/locked-change-output.json). Live adoption remains rejected.
