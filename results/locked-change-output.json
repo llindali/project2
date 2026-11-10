@@ -1,0 +1,196 @@
+{
+  "prediction_commit": "339e59e2524ca17a64596ea05e2615c6b71a38e3",
+  "baseline": {
+    "inputs": {
+      "months": 60,
+      "annual_fee": 0.0025,
+      "VT_estimate_shift": 0,
+      "reserve_minimum": 0.03,
+      "equity_cap": 0.7,
+      "target": 0.07,
+      "planning_inflation": 0.025,
+      "initial_nav": 50000000
+    },
+    "signal": {
+      "name": "12-month VT total-return proxy momentum",
+      "value": 0.1645452402354033,
+      "observation_end": "2026-09-30",
+      "snapshot_verified_available_by": "2026-11-10",
+      "earliest_proposed_execution": "2026-11-12",
+      "equity_cap": 0.7,
+      "rule": "Positive momentum: VT <=70%; otherwise VT <=30%.",
+      "vintage_limit": "Vendor-adjusted snapshot retrieved from GitHub on Nov 10; not a historical vintage."
+    },
+    "net_asset_means": {
+      "SGOV": 0.034650657109547324,
+      "BND": -0.006727873094828593,
+      "VT": 0.11645225252869604
+    },
+    "baselines": {
+      "Equal weight": {
+        "weights": {
+          "SGOV": 0.3333333333333333,
+          "BND": 0.3333333333333333,
+          "VT": 0.3333333333333333
+        },
+        "net_return_estimate": 0.04812501218113825,
+        "annualized_volatility": 0.06730458623589625,
+        "reserve_usd": 16666666.666666666,
+        "one_way_turnover": 0.3456666666666667,
+        "estimated_net_target_met": false,
+        "checks": {
+          "fully invested": true,
+          "long only / no leverage": true,
+          "cash/Treasury buffer": true,
+          "signal equity cap (design assumption)": true
+        },
+        "failed_rules": [],
+        "mandate_verdict": "UNVERIFIED: 5% issuer policy/look-through, risk budget and ten-year objective unresolved"
+      },
+      "70/30 tradable proxy": {
+        "weights": {
+          "SGOV": 0.0,
+          "BND": 0.3,
+          "VT": 0.7
+        },
+        "net_return_estimate": 0.07949821484163865,
+        "annualized_volatility": 0.11913438367277047,
+        "reserve_usd": 0.0,
+        "one_way_turnover": 0.029999999999999957,
+        "estimated_net_target_met": true,
+        "checks": {
+          "fully invested": true,
+          "long only / no leverage": true,
+          "cash/Treasury buffer": false,
+          "signal equity cap (design assumption)": true
+        },
+        "failed_rules": [
+          "cash/Treasury buffer"
+        ],
+        "mandate_verdict": "FAIL: cash/Treasury buffer"
+      }
+    },
+    "portfolio": {
+      "weights": {
+        "SGOV": 0.55,
+        "BND": 0.0,
+        "VT": 0.45
+      },
+      "net_return_estimate": 0.07146137504816424,
+      "annualized_volatility": 0.06769842204186051,
+      "reserve_usd": 27500000.000000004,
+      "one_way_turnover": 0.52,
+      "estimated_net_target_met": true,
+      "checks": {
+        "fully invested": true,
+        "long only / no leverage": true,
+        "cash/Treasury buffer": true,
+        "signal equity cap (design assumption)": true
+      },
+      "failed_rules": [],
+      "mandate_verdict": "UNVERIFIED: 5% issuer policy/look-through, risk budget and ten-year objective unresolved"
+    },
+    "decision": "REJECT live adoption; research testing only; live allocation range 0\u20130%"
+  },
+  "changed": {
+    "inputs": {
+      "months": 60,
+      "annual_fee": 0.0025,
+      "VT_estimate_shift": 0.015,
+      "reserve_minimum": 0.03,
+      "equity_cap": 0.7,
+      "target": 0.07,
+      "planning_inflation": 0.025,
+      "initial_nav": 50000000
+    },
+    "signal": {
+      "name": "12-month VT total-return proxy momentum",
+      "value": 0.1645452402354033,
+      "observation_end": "2026-09-30",
+      "snapshot_verified_available_by": "2026-11-10",
+      "earliest_proposed_execution": "2026-11-12",
+      "equity_cap": 0.7,
+      "rule": "Positive momentum: VT <=70%; otherwise VT <=30%.",
+      "vintage_limit": "Vendor-adjusted snapshot retrieved from GitHub on Nov 10; not a historical vintage."
+    },
+    "net_asset_means": {
+      "SGOV": 0.034650657109547324,
+      "BND": -0.006727873094828593,
+      "VT": 0.13145225252869602
+    },
+    "baselines": {
+      "Equal weight": {
+        "weights": {
+          "SGOV": 0.3333333333333333,
+          "BND": 0.3333333333333333,
+          "VT": 0.3333333333333333
+        },
+        "net_return_estimate": 0.05312501218113825,
+        "annualized_volatility": 0.06730458623589625,
+        "reserve_usd": 16666666.666666666,
+        "one_way_turnover": 0.3456666666666667,
+        "estimated_net_target_met": false,
+        "checks": {
+          "fully invested": true,
+          "long only / no leverage": true,
+          "cash/Treasury buffer": true,
+          "signal equity cap (design assumption)": true
+        },
+        "failed_rules": [],
+        "mandate_verdict": "UNVERIFIED: 5% issuer policy/look-through, risk budget and ten-year objective unresolved"
+      },
+      "70/30 tradable proxy": {
+        "weights": {
+          "SGOV": 0.0,
+          "BND": 0.3,
+          "VT": 0.7
+        },
+        "net_return_estimate": 0.08999821484163863,
+        "annualized_volatility": 0.11913438367277047,
+        "reserve_usd": 0.0,
+        "one_way_turnover": 0.029999999999999957,
+        "estimated_net_target_met": true,
+        "checks": {
+          "fully invested": true,
+          "long only / no leverage": true,
+          "cash/Treasury buffer": false,
+          "signal equity cap (design assumption)": true
+        },
+        "failed_rules": [
+          "cash/Treasury buffer"
+        ],
+        "mandate_verdict": "FAIL: cash/Treasury buffer"
+      }
+    },
+    "portfolio": {
+      "weights": {
+        "SGOV": 0.6,
+        "BND": 0.0,
+        "VT": 0.4
+      },
+      "net_return_estimate": 0.0733712952772068,
+      "annualized_volatility": 0.06030493522550702,
+      "reserve_usd": 30000000.0,
+      "one_way_turnover": 0.5700000000000001,
+      "estimated_net_target_met": true,
+      "checks": {
+        "fully invested": true,
+        "long only / no leverage": true,
+        "cash/Treasury buffer": true,
+        "signal equity cap (design assumption)": true
+      },
+      "failed_rules": [],
+      "mandate_verdict": "UNVERIFIED: 5% issuer policy/look-through, risk budget and ten-year objective unresolved"
+    },
+    "decision": "REJECT live adoption; research testing only; live allocation range 0\u20130%"
+  },
+  "delta": {
+    "net_return_percentage_points": 0.19099202290425582,
+    "volatility_percentage_points": -0.739348681635349,
+    "weights_percentage_points": {
+      "SGOV": 4.999999999999993,
+      "BND": 0.0,
+      "VT": -4.999999999999999
+    }
+  }
+}
