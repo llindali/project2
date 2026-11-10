@@ -1,0 +1,9 @@
+### Snapshot signal data card
+- Inputs: SGOV, BND and VT monthly vendor-adjusted closing prices in `prices.csv`; 61 observations, September 2021–September 2026, USD. Sixty returns; no missing-value fill.
+- Source custody: copied unchanged from Linda's Lab 15 snapshot at tree `10f8ffdb7936a8255c368533e576ebd257de4a62`; original README reports Yahoo Finance retrieval October 22, 2026. This project retrieved the GitHub snapshot November 10, 2026. Original retrieval provenance is reported, not independently authenticated.
+- Availability boundary: use this snapshot only for a prospective research decision after November 10, 2026; earliest proposed execution November 12, 2026. Never label these values as known at September month-end. No intraday or historical vintage claim.
+- Signal: VT adjusted price at September 30, 2026 divided by its September 30, 2025 value minus one. Positive: cap equity at 70%; otherwise cap at 30%. This cap is an analyst design assumption, not a client-approved mandate rule.
+- Signal affects the feasible set, not expected-return estimates. Both branches must be tested. Positive branch may be nonbinding; negative branch can be infeasible. No backtested alpha claim.
+- Revision and bias risks: vendor adjustment revisions, fixed surviving ETF universe, short sample, stale prices, index mismatch, and sample mean instability. This is not an archived historical point-in-time dataset.
+- Refresh: archive each new source file and retrieval date before computing or executing. Stop if the latest observation is more than 45 calendar days old at execution, missing, or unverifiable. September 30 to proposed November 12 is 43 days.
+- Market benchmarks: VT includes emerging markets unlike MSCI World; BND approximates U.S. aggregate bonds. Exact benchmark total-return data are not supplied, so no exact-index excess return or tracking error is reported.
