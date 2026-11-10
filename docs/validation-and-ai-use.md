@@ -12,7 +12,7 @@ SGOV and diversified funds are provisionally admitted for research; no issuer ex
 ## Executed results
 `python engine.py` produced `visible_output.json`: base 55/0/45, net estimate 7.1461375%, volatility 6.7698422%. Independent Lab 15 result reproduced. Window stress changes a weight by 25 points; the 30% equity ceiling is infeasible. Fees, reserve and combined stresses are included. These ordinary AI-assisted runs do **not** satisfy the Locked Changed-Input Record.
 
-Test and application verification details are recorded after execution below. A student-reported cold check is recorded below; no partner meeting is claimed.
+Test and application verification details are recorded after execution below. A partner cold-check confirmation supplied by Linda is recorded below; execution was not independently witnessed by the AI assistant.
 
 ## Material AI uses
 | Tool / model as exposed | Date | Use | Disposition / check |
@@ -77,7 +77,7 @@ python -c "import json; from engine import run; print(json.dumps({'baseline':run
 **Student review and ownership — confirmed November 10, 2026:** Linda confirms that she reviewed and understands the analysis and agrees with the decision to reject live adoption. She accepts ownership of the final analysis and decision. She also attests that the pre-run prediction was written with AI closed; earlier AI discussion and the AI-assisted post-run work remain disclosed. The original prediction and its commit history are unchanged.
 
 ## Limits and outstanding checks
-Five years cannot establish ten-year outcomes. No exact-index tracking error, historical vintage backtest, client-approved issuer policy, calibrated forward forecasts, live trade authority is supplied. The cold check below is student-reported and was not independently witnessed by the AI assistant. A zero live allocation is the committee ask; this is a research app with an honest rejection, not an approved trading system.
+Five years cannot establish ten-year outcomes. No exact-index tracking error, historical vintage backtest, client-approved issuer policy, calibrated forward forecasts, live trade authority is supplied. The cold check below is partner-reported via Linda and was not independently witnessed by the AI assistant. A zero live allocation is the committee ask; this is a research app with an honest rejection, not an approved trading system.
 
 ## Verification performed in this build
 - `python -m unittest discover -s tests -v`: **5 tests passed**, including direct NumPy mean/covariance and portfolio-volatility checks, baseline failures, both signal branches, infeasibility, stress stop/constraint checks, and Streamlit AppTest default plus 36-month control path.
@@ -85,10 +85,10 @@ Five years cannot establish ten-year outcomes. No exact-index tracking error, hi
 - Streamlit AppTest executed the UI successfully; this is an automated application run, not a visual browser inspection or an independent partner cold run. Dependency installation succeeded in the existing environment; a later student-reported clean virtual-environment run is recorded below.
 - The live-deployment stop remains active regardless of numerical feasibility. The sample contains 60 returns, too few to validate a rolling ten-year target.
 
-## Cold Check Record (Follow-README Audit) — student-reported
+## Cold Check Record (Follow-README Audit) — partner confirmation supplied by Linda
 
 - **Date:** November 10, 2026.
-- **Reported by:** Linda Li. A separate tester's identity and elapsed time were not supplied; no independent partner run is asserted.
+- **Reported by:** Linda Li, who explicitly identifies the supplied record as her partner's confirmation. The partner's name and elapsed time were not supplied. The partner reports following only the README; the AI assistant did not witness the run.
 - **Reference repository:** [llindali/project2](https://github.com/llindali/project2).
 - **Repository reference at recording:** [8a089dcf3b2e319d6118ee4ba40a89c7bea41c4e](https://github.com/llindali/project2/commit/8a089dcf3b2e319d6118ee4ba40a89c7bea41c4e). The exact checkout tested was not separately reported.
 - **Environment reported:** Python 3.11 / clean virtual environment (`.venv`). Operating system was not specified.
@@ -113,7 +113,7 @@ python -m unittest discover -s tests -v
 ```
 
 ### Execution outcome
-Linda reports that installation resolved dependencies without version conflicts, the engine completed, Streamlit started at `http://localhost:8501`, the app opened, and all unit tests passed. No intervention was reported.
+The partner confirmation supplied by Linda reports that installation resolved dependencies without version conflicts, the engine completed, Streamlit started at `http://localhost:8501`, the app opened, and all unit tests passed. No intervention was reported.
 
 **First failure:** none reported. **Fix:** no fix was needed. Invoking Streamlit through `python -m streamlit` used the selected Python environment; no cross-platform execution claim is made.
 
