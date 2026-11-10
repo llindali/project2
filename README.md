@@ -43,7 +43,7 @@ See [full executed output](visible_output.json). Arithmetic historical estimates
 6. [Video recording outlines](docs/video-outlines.md) and [submission manifest](docs/submission-manifest.md).
 
 ## What remains before submission
-- Actual independent cold run if required by the lab; the AI test is labeled separately.
+- Student-reported clean cold check is recorded in the validation file. A separate partner identity, elapsed time and control-change observation were not supplied; add them if needed for Lab 20.
 - Three recorded YouTube videos with corrected transcripts; replace pending manifest entries with real URLs/durations/timestamps. Draft outlines are not transcripts.
 - Confirm Brightspace's enforced due date; attach the same two required Markdown documents and complete manifest. Project 2 has no Edition A or B.
 

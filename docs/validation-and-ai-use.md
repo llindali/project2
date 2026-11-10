@@ -12,7 +12,7 @@ SGOV and diversified funds are provisionally admitted for research; no issuer ex
 ## Executed results
 `python engine.py` produced `visible_output.json`: base 55/0/45, net estimate 7.1461375%, volatility 6.7698422%. Independent Lab 15 result reproduced. Window stress changes a weight by 25 points; the 30% equity ceiling is infeasible. Fees, reserve and combined stresses are included. These ordinary AI-assisted runs do **not** satisfy the Locked Changed-Input Record.
 
-Test and application verification details are recorded after execution below. No partner meeting or student cold run is claimed.
+Test and application verification details are recorded after execution below. A student-reported cold check is recorded below; no partner meeting is claimed.
 
 ## Material AI uses
 | Tool / model as exposed | Date | Use | Disposition / check |
@@ -77,10 +77,51 @@ python -c "import json; from engine import run; print(json.dumps({'baseline':run
 **Student review and ownership — confirmed November 10, 2026:** Linda confirms that she reviewed and understands the analysis and agrees with the decision to reject live adoption. She accepts ownership of the final analysis and decision. She also attests that the pre-run prediction was written with AI closed; earlier AI discussion and the AI-assisted post-run work remain disclosed. The original prediction and its commit history are unchanged.
 
 ## Limits and outstanding checks
-Five years cannot establish ten-year outcomes. No exact-index tracking error, historical vintage backtest, client-approved issuer policy, calibrated forward forecasts, live trade authority or independent student cold run is supplied. A zero live allocation is the committee ask; this is a research app with an honest rejection, not an approved trading system.
+Five years cannot establish ten-year outcomes. No exact-index tracking error, historical vintage backtest, client-approved issuer policy, calibrated forward forecasts, live trade authority is supplied. The cold check below is student-reported and was not independently witnessed by the AI assistant. A zero live allocation is the committee ask; this is a research app with an honest rejection, not an approved trading system.
 
 ## Verification performed in this build
 - `python -m unittest discover -s tests -v`: **5 tests passed**, including direct NumPy mean/covariance and portfolio-volatility checks, baseline failures, both signal branches, infeasibility, stress stop/constraint checks, and Streamlit AppTest default plus 36-month control path.
 - Initial environment failure: Streamlit was missing; installing the specified version resolved it. An initial test assertion searched a truncated DataFrame display; reading the SGOV column directly corrected the test. No financial result changed.
-- Streamlit AppTest executed the UI successfully; this is an automated application run, not a visual browser inspection or an independent partner cold run. Dependency installation succeeded in the existing environment; a fresh virtual-environment installation is still an independent cold-run task.
+- Streamlit AppTest executed the UI successfully; this is an automated application run, not a visual browser inspection or an independent partner cold run. Dependency installation succeeded in the existing environment; a later student-reported clean virtual-environment run is recorded below.
 - The live-deployment stop remains active regardless of numerical feasibility. The sample contains 60 returns, too few to validate a rolling ten-year target.
+
+## Cold Check Record (Follow-README Audit) — student-reported
+
+- **Date:** November 10, 2026.
+- **Reported by:** Linda Li. A separate tester's identity and elapsed time were not supplied; no independent partner run is asserted.
+- **Reference repository:** [llindali/project2](https://github.com/llindali/project2).
+- **Repository reference at recording:** [8a089dcf3b2e319d6118ee4ba40a89c7bea41c4e](https://github.com/llindali/project2/commit/8a089dcf3b2e319d6118ee4ba40a89c7bea41c4e). The exact checkout tested was not separately reported.
+- **Environment reported:** Python 3.11 / clean virtual environment (`.venv`). Operating system was not specified.
+- **Evidence status:** reported execution observations supplied by Linda; no terminal logs, screenshots or independently witnessed execution were supplied with this record.
+
+### Commands reported
+```bash
+git clone https://github.com/llindali/project2.git
+cd project2
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python engine.py
+python -m streamlit run app.py
+```
+
+Windows activation alternative in the README: `.venv\Scripts\activate`. This record does not establish testing on both Windows and macOS/Linux.
+
+Validation command reported:
+```bash
+python -m unittest discover -s tests -v
+```
+
+### Execution outcome
+Linda reports that installation resolved dependencies without version conflicts, the engine completed, Streamlit started at `http://localhost:8501`, the app opened, and all unit tests passed. No intervention was reported.
+
+**First failure:** none reported. **Fix:** no fix was needed. Invoking Streamlit through `python -m streamlit` used the selected Python environment; no cross-platform execution claim is made.
+
+### Result locations and terminology
+- Engine results: `visible_output.json` in the repository root and the terminal's portfolio/stress summary. The engine validates prices and covariance internally; individual validation steps are not separately logged.
+- App: `http://localhost:8501`, with a portfolio comparison, mandate verdicts, parameter controls, stress table and analysis download.
+- The three portfolio-comparison rows are **equal weight**, **70/30 tradable proxy**, and the **constrained portfolio**. Base 55/0/45, 36-month 80/0/20 and VT-minus-one-point 50/0/50 describe optimized results across scenarios; they are not three baselines.
+- Base constrained mix: 55% SGOV / 0% BND / 45% VT, net arithmetic estimate 7.15%, annualized volatility 6.77%.
+- The cold-check submission did not describe moving a control or provide elapsed time. Those details remain unreported rather than inferred.
+
+This clean-run report supports reproducibility; it does not change the rejection recommendation or resolve the mandate and validation limitations.

@@ -19,3 +19,5 @@
 The memo and validation file must also be attached as the same Markdown files to Brightspace. Due date and points must be checked in the Brightspace assignment header. No Brightspace submission or video upload is claimed here. Finalize with stable commit links after the remaining work; do not submit pending rows as completed evidence.
 
 Locked-change evidence: [prediction commit](https://github.com/llindali/project2/commit/339e59e2524ca17a64596ea05e2615c6b71a38e3) and [immutable before/after output](https://github.com/llindali/project2/blob/c9cbbda8c57cd27f37ee927abfcde2f55460e3ec/results/locked-change-output.json).
+
+Cold check: [student-reported README audit](https://github.com/llindali/project2/blob/main/docs/validation-and-ai-use.md), November 10, 2026; clean run and passing tests reported. Separate tester identity and elapsed time were not supplied.
