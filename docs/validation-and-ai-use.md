@@ -30,11 +30,17 @@ This must contain Linda's human-authored prediction with AI closed. Do not copy 
 4. Save actual outputs and their commit URL; compare expected and actual directions, explain divergence and state the decision effect.
 
 Fill before the run:
-- Author and time:
-- Baseline commit:
-- Input / old / new / units:
-- AI-off prediction and reasoning (student only):
-- Prediction commit URL:
+- **Analyst:** Linda Li
+- **Date:** 11/10/2026
+- **Input Changed:** VT return-estimate adjustment
+- **Original Value:** 0.0% (0 percentage points)
+- **New Value:** +1.5% (+1.5 percentage points / +150 bps)
+
+#### Pre-Run Prediction:
+- **Allocation:** The allocation will remain unchanged at **55% SGOV / 0% BND / 45% VT**. SGOV remains anchored at the 55% minimum reserve floor, BND remains unallocated (0%) due to lower risk-adjusted return relative to VT and cash, and VT stays at its 45% allowable non-reserve ceiling.
+- **Return Estimate:** Expected annualized portfolio return will increase by approximately **+0.675%** (derived from the 45% VT weighting multiplied by the +1.50% return bump: $0.45 \times 1.5\% = +0.675\%$).
+- **Volatility:** Annualized portfolio volatility will remain **unchanged** because adjusting the forward return estimate does not change the historical asset covariance matrix or historical standard deviations used by the model.
+- **Reject Live Adoption Decision:** **Remains "Reject live adoption" (no change)**. While the nominal return increases, manually boosting the equity return estimate without fundamental historical covariance justification fails the robustness/governance checks, keeping live adoption rejected.
 
 Fill after the run:
 - Exact command or app settings:
