@@ -1,0 +1,21 @@
+I used ChatGPT and Codex to assist with implementation, calculations, validation and drafting. I reviewed and understand the analysis, and the final decision is mine. This is education, not investment advice.
+
+I will walk through the source that produces the portfolio decision. The README explains installation and startup. The app reads a committed price file, so it does not need live data requests or an API key to run.
+
+In engine dot py, load_prices reads monthly adjusted prices for SGOV, BND and VT. It checks the ticker columns, duplicate dates, positive finite values, and consecutive months. Sixty-one monthly prices supply sixty monthly returns.
+
+The signal function compares the latest VT price with its value twelve months earlier. Positive momentum permits up to seventy percent equity; otherwise the ceiling is thirty percent. This is an analyst-designed constraint, not an approved client rule or evidence of alpha. The observation ends in September, but the snapshot's stated availability boundary is November tenth. It is not presented as a September historical vintage.
+
+The estimates function computes percentage changes and selects either sixty or thirty-six monthly returns. It multiplies monthly arithmetic means by twelve and subtracts the annual fee assumption. It adds equity_shift only to VT's mean. Sample monthly covariance is multiplied by twelve, assuming this annual scaling is appropriate. Changing the mean adjustment does not change covariance.
+
+Next, measure calculates weighted return and the square root of weights-transpose times covariance times weights. It checks full investment, nonnegative weights, the reserve floor and signal equity cap. Issuer policy and the ten-year objective remain unverified.
+
+The run function evaluates equal weight and a seventy-thirty VT-and-BND benchmark proxy. It then searches fully invested allocations in five-percentage-point steps. The nested loops choose SGOV and BND units; the remaining units go to VT.
+
+A candidate is skipped if it misses the reserve floor, exceeds the equity ceiling, or falls below the seven-percent estimated net-return hurdle. Among remaining candidates, the lowest estimated volatility wins. This is a grid optimum, not a continuous optimum. If none qualify, the result is null and the app reports infeasibility.
+
+The stress suite changes the equity estimate, estimation window, annual fees, reserve floor, equity ceiling, and a combination. It flags infeasibility or a weight change greater than ten percentage points. The separate live-adoption rejection remains in place because passing a numerical screen does not resolve the policy gaps.
+
+Finally, app dot py connects the sidebar controls to run, displays the two baselines and constrained portfolio, shows the data card and stress table, and allows a result download.
+
+The locked record preserves my prediction commit before the changed-input output. The plus-one-point-five test moved equity down to forty percent, illustrating why I must explain the objective and constraints rather than assume that a higher return estimate always means more equity.

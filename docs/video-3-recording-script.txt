@@ -1,0 +1,23 @@
+I used ChatGPT and Codex to assist with implementation, calculations, validation and drafting. I reviewed and understand the analysis, and the final decision is mine. This is education, not investment advice.
+
+My committee recommendation is to reject live adoption of this process, with a live allocation range of zero to zero percent. I request authorization for further research and policy clarification only.
+
+Apex starts with fifty million dollars. Its objective is CPI plus four-point-five percent net over rolling ten-year periods. It requires a one-point-five-million-dollar cash or Treasury buffer, long-only exposure, and a five-percent single-issuer limit. Its reference benchmark is seventy percent MSCI World and thirty percent Bloomberg Aggregate.
+
+For modeling, I assume two-point-five-percent inflation and a quarter-percent annual operating and custody fee. These assumptions produce a seven-percent nominal net-return hurdle. The VT-and-BND comparison is a tradable proxy, not the exact benchmark.
+
+On the live app, the default constrained portfolio is fifty-five percent SGOV, zero BND and forty-five VT. Its estimated net arithmetic return is seven-point-one-five percent, estimated volatility is six-point-seven-seven percent, and reserve value is twenty-seven-point-five million dollars.
+
+The comparison includes equal weight and the seventy-thirty proxy. Equal weight misses the estimated-return hurdle. The unbuffered proxy fails the reserve rule. No portfolio receives a full mandate pass because issuer interpretation and risk policy remain unresolved.
+
+I am now changing the estimation window from sixty to thirty-six months. The constrained portfolio becomes eighty percent SGOV and twenty percent VT. That twenty-five-percentage-point allocation shift breaches my proposed ten-point stability tolerance. This is the principal numerical reason to stop adoption.
+
+I will reset to sixty months and change VT's return adjustment to plus one-point-five percentage points. The mix becomes sixty percent SGOV and forty percent VT. Estimated net return is seven-point-three-four percent and volatility is six-point-zero-three percent. This matches the saved post-prediction result. I will reset the adjustment to zero.
+
+The data card explains the snapshot availability boundary and the momentum equity cap. I do not claim a historical point-in-time backtest, exact benchmark tracking error, or achievement of the ten-year objective from five years of observations.
+
+Before reconsidering, I would require approved issuer treatment and risk limits, authenticated and fresh data, an exact benchmark series, and justified forward estimates. Stress cases must remain feasible and stable without lowering the mandate target simply to obtain a result.
+
+Monitoring would cover reserve dollars and distributions, data freshness, issuer exposure and estimation sensitivity. The forty-five-day freshness cutoff is a stated operational rule; this app is a research tool, not an automated trading system.
+
+The committee action today is therefore to reject live deployment and authorize additional research only.

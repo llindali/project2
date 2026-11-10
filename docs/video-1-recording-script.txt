@@ -1,0 +1,13 @@
+I used ChatGPT and Codex to assist with implementation, calculations, validation and drafting. I reviewed and understand the analysis, and the final decision is mine. This is education, not investment advice.
+
+My project asks whether Apex Endowment should adopt this investment process. My recommendation is to reject live adoption and allocate zero percent of live assets to it.
+
+The project developed from the Lab 15 portfolio work into an app that compares two baselines, checks constraints, and exposes sensitivity to assumptions. The base research portfolio is 55 percent SGOV, zero percent BND, and 45 percent VT. Its annual net arithmetic return estimate is 7.15 percent and estimated volatility is 6.77 percent. These are estimates, not forecasts.
+
+The important finding is that using 36 months instead of 60 changes equity from 45 percent to 20 percent. That 25-point shift exceeds the proposed ten-point stability tolerance. Meeting a fitted return target alone does not justify adoption.
+
+Here is one AI-assisted output I am checking on screen: the base reserve amount. The displayed SGOV weight is 55 percent. Multiplying 50 million dollars by 0.55 gives 27.5 million dollars, matching the recorded reserve. The required buffer is 1.5 million dollars. This checks the arithmetic; it does not establish every mandate requirement.
+
+My locked prediction also exposed an error in my understanding. I predicted unchanged weights after adding 1.5 percentage points to VT's return estimate. The actual optimized weights became 60 percent SGOV and 40 percent VT, with lower volatility. The optimizer minimizes volatility while meeting the same seven-percent hurdle, so a higher equity return estimate can allow less equity.
+
+The final process is more transparent about these limitations. My rejection remains because window instability and unresolved issuer and risk policies prevent a defensible live allocation.
