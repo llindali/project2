@@ -88,10 +88,10 @@ Five years cannot establish ten-year outcomes. No exact-index tracking error, hi
 ## Cold Check Record (Follow-README Audit) — partner confirmation supplied by Linda
 
 - **Date:** November 10, 2026.
-- **Reported by:** Linda Li, who explicitly identifies the supplied record as her partner's confirmation. The partner's name and elapsed time were not supplied. The partner reports following only the README; the AI assistant did not witness the run.
+- **Reported by:** Linda Li, who explicitly identifies the supplied record as her partner's confirmation. The auditor label supplied is “Peer Auditor (Lab 20 Cold-Check Session)”; elapsed time was 6 minutes 15 seconds. A personal name was not supplied. The partner reports following only the README; the AI assistant did not witness the run.
 - **Reference repository:** [llindali/project2](https://github.com/llindali/project2).
 - **Repository reference at recording:** [8a089dcf3b2e319d6118ee4ba40a89c7bea41c4e](https://github.com/llindali/project2/commit/8a089dcf3b2e319d6118ee4ba40a89c7bea41c4e). The exact checkout tested was not separately reported.
-- **Environment reported:** Python 3.11 / clean virtual environment (`.venv`). Operating system was not specified.
+- **Environment reported:** Python 3.11 / clean virtual environment (`.venv`). The updated report specifies macOS/Linux without distinguishing the exact OS.
 - **Evidence status:** reported execution observations supplied by Linda; no terminal logs, screenshots or independently witnessed execution were supplied with this record.
 
 ### Commands reported
@@ -122,6 +122,16 @@ The partner confirmation supplied by Linda reports that installation resolved de
 - App: `http://localhost:8501`, with a portfolio comparison, mandate verdicts, parameter controls, stress table and analysis download.
 - The three portfolio-comparison rows are **equal weight**, **70/30 tradable proxy**, and the **constrained portfolio**. Base 55/0/45, 36-month 80/0/20 and VT-minus-one-point 50/0/50 describe optimized results across scenarios; they are not three baselines.
 - Base constrained mix: 55% SGOV / 0% BND / 45% VT, net arithmetic estimate 7.15%, annualized volatility 6.77%.
-- The cold-check submission did not describe moving a control or provide elapsed time. Those details remain unreported rather than inferred.
+### Partner-reported control checks — November 10, 2026
+- **Auditor label supplied:** Peer Auditor (Lab 20 Cold-Check Session); personal name not supplied.
+- **Total elapsed time:** 6 minutes 15 seconds, from clone through installation, engine run and interactive UI check.
+- **Environment:** Python 3.11, fresh virtual environment, macOS/Linux as reported; exact OS not distinguished.
+- **VT adjustment:** 0 to +1.5 annual percentage points. Reported mix changed 55/0/45 to 60/0/40 (SGOV/BND/VT); net estimate 7.15% to 7.34%; volatility 6.77% to 6.03%. Response time reported under one second.
+- **Window check:** partner additionally reports 60 to 36 months, with 80/0/20 and a 25-point stability stop. The report does not specify whether the VT slider was reset first; this is not asserted as evidence of the combined 36-month/+1.5-point case.
+- **Verdict:** reject live adoption remained active because unresolved policy and evidence conditions remain.
+- **UI wording qualification:** inspected app code uses a persistent rejection message and a stress-results table. The partner's “warning banner” and “updated explanation” wording is treated as a description of the outcome, not a verbatim quote or proof of dynamically rewritten recommendation text. Stress cases are calculated separately from current sidebar inputs.
+- **First failure:** none reported; no fix needed. Unit tests reported passing. Module invocation used the selected environment; prevention of hypothetical PATH errors was not separately tested.
+
+These observations are supplied by Linda as her partner's report, not newly executed or independently witnessed by the AI assistant.
 
 This clean-run report supports reproducibility; it does not change the rejection recommendation or resolve the mandate and validation limitations.
