@@ -1,4 +1,4 @@
-AI disclosure: ChatGPT/Codex assisted implementation, calculations, validation and drafting. This is an AI-assisted draft; Linda must review the analysis and own the final decision before submission.
+AI disclosure: I used ChatGPT/Codex to assist with implementation, calculations, validation and drafting. I reviewed and understand the analysis, and the final decision to reject live adoption is mine.
 
 Education, not investment advice.
 

@@ -19,10 +19,10 @@ Test and application verification details are recorded after execution below. No
 |---|---|---|---|
 | ChatGPT / Codex; exact underlying model version not exposed | 2026-11-10 | Requirements review, implementation and tests | Compared current course requirements to actual Lab 13 mandate and Lab 15 inputs |
 | ChatGPT / Codex | 2026-11-10 | Estimates and sensitivity analysis | Executed engine; independent arithmetic and constraint tests; reject adoption on instability |
-| ChatGPT / Codex | 2026-11-10 | Memo, README, video outlines and practice objections | AI drafts; student review still required; no fabricated personal reflection or partner event |
+| ChatGPT / Codex | 2026-11-10 | Memo, README, video outlines and practice objections | AI-assisted drafts reviewed by Linda; she confirmed understanding and ownership of the rejection recommendation; no partner event claimed |
 
-## Locked Changed-Input Record — prediction preserved; result recorded
-The original student-supplied prediction below is preserved verbatim. The prediction was committed before the test executed in this session. AI-off authorship cannot be independently verified from GitHub; pre-commit AI discussion supplied model-fact corrections and procedural feedback. Post-run execution and diagnosis below are AI-assisted and await Linda's review.
+## Locked Changed-Input Record — AI-off prediction (student-attested); result recorded
+The original student-supplied prediction below is preserved verbatim. The prediction was committed before the test executed in this session. Linda confirms that she wrote the pre-run prediction with AI closed. This is a student attestation, not independent verification of the writing conditions. Pre-commit AI discussion supplied model-fact corrections and procedural feedback and remains disclosed. Post-run execution and diagnosis below are AI-assisted; Linda confirmed that she reviewed and understood the analysis and agreed with the rejection recommendation on November 10, 2026.
 
 1. Select one previously unrun input change, with old/new values and units. Record the current baseline input set and output.
 2. With AI closed, write your expected direction for weights, net estimate, volatility and recommendation, plus why. Commit and push this prediction **before** running that change.
@@ -74,7 +74,7 @@ python -c "import json; from engine import run; print(json.dumps({'baseline':run
 
 **Verification:** independently recomputed changed return as weights times asset means and changed volatility as the square root of weights-transpose times covariance times weights; checked all modeled numerical constraints and the 7% estimated-return hurdle. The engine and price file were not modified.
 
-**Student review:** Linda should review this AI-assisted comparison and explain the prediction error in her own words. This record does not certify that the pre-run writing was wholly AI-off.
+**Student review and ownership — confirmed November 10, 2026:** Linda confirms that she reviewed and understands the analysis and agrees with the decision to reject live adoption. She accepts ownership of the final analysis and decision. She also attests that the pre-run prediction was written with AI closed; earlier AI discussion and the AI-assisted post-run work remain disclosed. The original prediction and its commit history are unchanged.
 
 ## Limits and outstanding checks
 Five years cannot establish ten-year outcomes. No exact-index tracking error, historical vintage backtest, client-approved issuer policy, calibrated forward forecasts, live trade authority or independent student cold run is supplied. A zero live allocation is the committee ask; this is a research app with an honest rejection, not an approved trading system.

@@ -1,4 +1,4 @@
-AI disclosure: ChatGPT/Codex assisted code, analysis, testing and drafting. Student review is pending; the submitted analysis and final decision must be Linda's own.
+AI disclosure: I used ChatGPT/Codex to assist with implementation, calculations, validation and drafting. I reviewed and understand the analysis, and the final decision to reject live adoption is mine.
 
 Education, not investment advice.
 
@@ -43,8 +43,6 @@ See [full executed output](visible_output.json). Arithmetic historical estimates
 6. [Video recording outlines](docs/video-outlines.md) and [submission manifest](docs/submission-manifest.md).
 
 ## What remains before submission
-- Review the completed [locked input comparison](docs/validation-and-ai-use.md): committed prediction preserved, results recorded; student review and AI-off authorship attestation remain Linda's responsibility.
-- Linda's review of the memo/assumptions and final ownership statements. Suggested client policy is not client approval.
 - Actual independent cold run if required by the lab; the AI test is labeled separately.
 - Three recorded YouTube videos with corrected transcripts; replace pending manifest entries with real URLs/durations/timestamps. Draft outlines are not transcripts.
 - Confirm Brightspace's enforced due date; attach the same two required Markdown documents and complete manifest. Project 2 has no Edition A or B.
