@@ -1,4 +1,15 @@
 # Project 2 submission manifest — incomplete until final review
+
+## Project videos
+
+| Video | Recording | Transcript | Submission status |
+|---|---|---|---|
+| 1 — Project evolution and AI output check | [Watch on Loom](https://www.loom.com/share/a0cf396655c946c6bdb0d0211cbd76a9) | [Transcript and timestamps](transcript-video-1.txt) | YouTube link, final title, confirmed duration (≤3:00), and access check pending |
+| 2 — Code walkthrough | Pending | Pending | YouTube link, title, duration (≤5:00), timestamps, and access check pending |
+| 3 — Live app and committee presentation | Pending | Pending | YouTube link, title, duration (≤5:00), timestamps, and access check pending |
+
+## Project files
+
 | Item | Location / status |
 |---|---|
 | Repository | https://github.com/llindali/project2 |
@@ -9,14 +20,9 @@
 | App | https://github.com/llindali/project2/blob/main/app.py |
 | Dependencies | https://github.com/llindali/project2/blob/main/requirements.txt |
 | Data card | https://github.com/llindali/project2/blob/main/docs/data-card.md |
-| Video 1, evolution and checked AI output | [Transcript and timestamp index](https://github.com/llindali/project2/blob/main/docs/transcript-video-1.txt). Final title, YouTube URL and total duration (≤3:00) pending. |
-| Video 2, code walkthrough | PENDING YouTube URL; title, duration <=5:00 and timestamp index |
-| Video 3, live app and committee presentation | PENDING YouTube URL; title, duration <=5:00 and timestamp index |
-| Actual transcripts | [Video 1](https://github.com/llindali/project2/blob/main/docs/transcript-video-1.txt). Videos 2 and 3 pending. |
-| Access confirmation | Public repository branch; student must test logged-out video access |
 | Frozen-file checklist | PENDING final commit links, actual videos/transcripts and Brightspace attachments |
 
-The memo and validation file must also be attached as the same Markdown files to Brightspace. Due date and points must be checked in the Brightspace assignment header. No Brightspace submission or video upload is claimed here. Finalize with stable commit links after the remaining work; do not submit pending rows as completed evidence.
+The memo and validation file must also be attached as the same Markdown files to Brightspace. Due date and points must be checked in the Brightspace assignment header. Finalize with stable commit links after the remaining work; do not submit pending rows as completed evidence.
 
 Locked-change evidence: [prediction commit](https://github.com/llindali/project2/commit/339e59e2524ca17a64596ea05e2615c6b71a38e3) and [immutable before/after output](https://github.com/llindali/project2/blob/c9cbbda8c57cd27f37ee927abfcde2f55460e3ec/results/locked-change-output.json).
 
