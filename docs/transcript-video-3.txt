@@ -1,0 +1,19 @@
+Video 3 — Live app and committee presentation
+Edited transcript from supplied captions. Timestamps mark the start of each segment.
+
+0:02 My recommendation to the Apex Endowment Committee is to reject live adoption. I recommend allocating 0% of live assets to this process and continuing research.
+0:16 Apex starts with $50 million and targets CPI plus 4.5% net over rolling 10-year periods. It requires a $1.5 million reserve and has a 5% single-issuer limit.
+0:29 With an assumed inflation rate of 2.5%, the model uses a 7% nominal net-return hurdle. At the default settings, the constrained portfolio holds 55% SGOV, 0% BND, and 45% VT.
+0:44 It has a net return estimate of 7.15%, estimated volatility of 6.77%, and $27.5 million in reserves. The equal-weight portfolio misses the estimated return hurdle, and the 70/30 benchmark proxy fails the reserve
+1:05 requirement. The constrained portfolio clears the numerical screens shown here, but full mandate compliance remains unverified. And so, changing the estimation window from 60 to 36
+1:21 months, the constrained portfolio now holds 80% SGOV and 20% VT. The equity allocation fell by 25 percentage points, which exceeds my proposed 10-percentage-point stability threshold.
+1:35 This is the main numerical reason I recommend rejecting live adoption. Changing the lookback period alone produces a materially different portfolio.
+1:55 Now I'll reset the window to 60 months and raise VT's return estimate by 1.5 percentage points. The allocation moves to 60% SGOV and 40% VT.
+2:07 Estimated net return rises to 7.34%, and estimated volatility falls to 6.03%. This reproduces my locked changed-input test. With a higher return estimate for VT, the optimizer can clear the same 7% hurdle with less equity.
+2:25 That makes sense because its goal is to minimize volatility among the portfolios that meet that hurdle. The data card shows the dates behind the momentum signal that sets the equity ceiling.
+2:46 The model uses five years of historical data, so these estimates can't show whether Apex will meet its rolling 10-year objective.
+2:53 The stress table also shows that a 30% equity ceiling leaves no feasible portfolio in that scenario. My proposed rule is to stop when no portfolio qualifies or when a stress test moves any weight by more than 10 percentage points.
+3:12 Before reconsidering, I would ask the committee to clarify how the issuer cap applies to fund holdings and approve a risk limit.
+3:20 I would also verify data freshness, use the exact benchmark series, and retest the model with justified return assumptions. I will monitor reserve dollars
+3:29 against upcoming payouts, issuer exposure, and how much the allocation changes across scenarios. Once the policy questions are resolved and the stress tests stay feasible and within the 10-point threshold, I would bring the process back to the committee.
+3:44 For now, I recommend rejecting live adoption and authorizing further research only.
