@@ -7,6 +7,7 @@
 | 1 — Project evolution and AI output check | [Watch on Loom](https://www.loom.com/share/a0cf396655c946c6bdb0d0211cbd76a9) | [Transcript and timestamps](transcript-video-1.txt) | Final title, confirmed duration (≤3:00), and access check pending |
 | 2 — Code walkthrough | [Watch on Loom](https://www.loom.com/share/c0f8a5ca1c2a48fa882456f6b6daa94a) | [Transcript and timestamps](transcript-video-2.txt) | final title, confirmed duration (≤5:00), and access check pending |
 | 3 — Live app and committee presentation | [Watch on Loom](https://www.loom.com/share/4ff8e089438446239ed25a841749b0c4) | [Transcript and timestamps](transcript-video-3.txt) | Final title, confirmed duration (≤5:00), and access check pending |
+| Supplemental — AI-use and ownership disclosure | [Watch on Loom](https://www.loom.com/share/5e5fbfe235704d759ff7d324c7058899) | [Transcript and timestamps](transcript-video-disclosure.txt) | Standalone disclosure for Videos 2 and 3 |
 
 ## Project files
 
