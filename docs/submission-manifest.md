@@ -9,10 +9,10 @@
 | App | https://github.com/llindali/project2/blob/main/app.py |
 | Dependencies | https://github.com/llindali/project2/blob/main/requirements.txt |
 | Data card | https://github.com/llindali/project2/blob/main/docs/data-card.md |
-| Video 1, evolution and checked AI output | PENDING YouTube URL; title, duration <=3:00 and timestamp index |
+| Video 1, evolution and checked AI output | [Transcript and timestamp index](https://github.com/llindali/project2/blob/main/docs/transcript-video-1.txt). Final title, YouTube URL and total duration (≤3:00) pending. |
 | Video 2, code walkthrough | PENDING YouTube URL; title, duration <=5:00 and timestamp index |
 | Video 3, live app and committee presentation | PENDING YouTube URL; title, duration <=5:00 and timestamp index |
-| Actual transcripts | PENDING GitHub links after recording; outlines are not transcripts |
+| Actual transcripts | [Video 1](https://github.com/llindali/project2/blob/main/docs/transcript-video-1.txt). Videos 2 and 3 pending. |
 | Access confirmation | Public repository branch; student must test logged-out video access |
 | Frozen-file checklist | PENDING final commit links, actual videos/transcripts and Brightspace attachments |
 
