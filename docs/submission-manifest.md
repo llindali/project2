@@ -4,9 +4,9 @@
 
 | Video | Recording | Transcript | Submission status |
 |---|---|---|---|
-| 1 — Project evolution and AI output check | [Watch on Loom](https://www.loom.com/share/a0cf396655c946c6bdb0d0211cbd76a9) | [Transcript and timestamps](transcript-video-1.txt) | YouTube link, final title, confirmed duration (≤3:00), and access check pending |
-| 2 — Code walkthrough | Pending | Pending | YouTube link, title, duration (≤5:00), timestamps, and access check pending |
-| 3 — Live app and committee presentation | Pending | Pending | YouTube link, title, duration (≤5:00), timestamps, and access check pending |
+| 1 — Project evolution and AI output check | [Watch on Loom](https://www.loom.com/share/a0cf396655c946c6bdb0d0211cbd76a9) | [Transcript and timestamps](transcript-video-1.txt) | Final title, confirmed duration (≤3:00), and access check pending |
+| 2 — Code walkthrough | Pending | Pending | Loom link, title, duration (≤5:00), timestamps, and access check pending |
+| 3 — Live app and committee presentation | Pending | Pending | Loom link, title, duration (≤5:00), timestamps, and access check pending |
 
 ## Project files
 
@@ -27,3 +27,7 @@ The memo and validation file must also be attached as the same Markdown files to
 Locked-change evidence: [prediction commit](https://github.com/llindali/project2/commit/339e59e2524ca17a64596ea05e2615c6b71a38e3) and [immutable before/after output](https://github.com/llindali/project2/blob/c9cbbda8c57cd27f37ee927abfcde2f55460e3ec/results/locked-change-output.json).
 
 Cold check: [student-reported README audit](https://github.com/llindali/project2/blob/main/docs/validation-and-ai-use.md), November 10, 2026; clean run and passing tests reported. Separate tester identity and elapsed time were not supplied.
+
+## Recording note
+
+The videos were captured with Loom because YouTube does not offer a built-in screen recorder for this workflow. These recordings are shared through Loom. Uploading them to YouTube would require a separate video export and upload.
