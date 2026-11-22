@@ -5,7 +5,7 @@
 | Video | Recording | Transcript | Submission status |
 |---|---|---|---|
 | 1 — Project evolution and AI output check | [Watch on Loom](https://www.loom.com/share/a0cf396655c946c6bdb0d0211cbd76a9) | [Transcript and timestamps](transcript-video-1.txt) | Final title, confirmed duration (≤3:00), and access check pending |
-| 2 — Code walkthrough | Pending | Pending | Loom link, title, duration (≤5:00), timestamps, and access check pending |
+| 2 — Code walkthrough | Pending | [Transcript and timestamps](transcript-video-2.txt) | Loom link, final title, confirmed duration (≤5:00), and access check pending |
 | 3 — Live app and committee presentation | Pending | Pending | Loom link, title, duration (≤5:00), timestamps, and access check pending |
 
 ## Project files
